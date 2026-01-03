@@ -23,7 +23,7 @@ class NotificationService {
 
     // Initialize local notifications (not supported on web)
     if (!kIsWeb) {
-      const androidSettings = AndroidInitializationSettings('@mipmap/ic_launcher');
+      const androidSettings = AndroidInitializationSettings('@mipmap/logo');
       const iosSettings = DarwinInitializationSettings(
         requestAlertPermission: true,
         requestBadgePermission: true,
